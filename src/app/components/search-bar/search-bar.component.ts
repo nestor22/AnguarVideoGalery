@@ -18,5 +18,4 @@ export class SearchBarComponent implements OnInit {
     this.router.navigate(['search', form.value.search]);
   }
 
-
 }

@@ -13,7 +13,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { HomeComponent } from './components/home/home.component'
 
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +24,8 @@ import { HomeComponent } from './components/home/home.component'
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    GaugeModule,
+    FormsModule,
+    GaugeModule.forRoot(),
     MatTabsModule,
     MatIconModule,
     MatFormFieldModule,
